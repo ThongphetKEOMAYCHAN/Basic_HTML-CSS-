@@ -1,0 +1,58 @@
+table{
+    border-collapse: collapse;
+}
+thead{
+    font-weight: 600;
+}
+th,td{
+    font-size: 12px;
+    border: 0.5px solid black;
+    text-transform: capitalize;
+}
+.text{
+    border: 1px solid black;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
+#element-id{
+    font-size: medium;
+    border: 1px solid black;
+    background-color: green;
+    opacity: 0.8;
+    /* background-image: url("images/OIP.jfif"); */
+  
+}
+.dot{
+    border: dotted 1px red;
+}
+.dashed{
+    border: 1px dashed;
+}
+.solid{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.double{
+    border-style: double;
+}
+.groove{
+    border-style: groove;
+}
+.ridge{
+    border: 1px ridge goldenrod;
+}
+.inset{
+    border: 1px inset black;
+}
+.outset{
+    border: outset 1px black;
+}
+.hidden{
+    border: 1px hidden black;display: hidden;
+}   
+.none{
+    border: none black 2px;
+    /* display: none; */
+}
