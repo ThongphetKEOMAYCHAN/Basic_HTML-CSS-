@@ -134,3 +134,115 @@ td {
   border: none black 2px;
   /* display: none; */
 }
+
+.content-text{
+  font-family: "Saysettha OT", Arial,Helvetica,sans-serif;;
+  /* font-style: italic; */
+  /* font-style: oblique; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  /* font-size: 1em; */
+  /* font-size: 10vw; */
+}
+section a{
+ text-transform: uppercase;
+ color: black;
+ outline-style: none;
+ font-weight: 600;
+
+}
+.action-button{
+  margin-top: 20px;
+}
+.action-button a{
+  border: 1px solid black;
+  padding: 10px;
+ background-color: rgb(228, 119, 9);
+ color: #fff;
+ border: 1px solid rgb(228, 119, 9);
+ border-radius: 5px;
+ text-decoration: none;
+}
+
+.action-button button{
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  background-color: rgb(228, 119, 9);
+  font-size: 18px;
+  border: none;
+}
+.action-button button:active {
+   background-color: aqua;
+}
+.action-button .button{
+  padding: 10px 20px 10px 20px;
+  color: black;
+  border: 2px solid rgb(6, 129, 78);
+  background-color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.action-button .button:hover{
+  background-color: rgb(228, 119, 9);
+  border: 2px solid rgb(228, 119, 9);
+}
+
+nav{
+  /* border: 1px solid red; */
+}
+nav .header{
+  position: sticky;
+}
+.header ul{
+  background-color: rgb(205, 137, 81);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+}
+.header ul li{
+  /* border: 1px solid rebeccapurple; */
+  list-style-type: none;
+}
+.header ul li a{
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+
+}
+
+.box{
+  position: relative;
+  background-color: aquamarine;
+  width: 500px;
+  height: 200px;
+  border: 2px solid rgb(228, 119, 9);
+}
+.content-body span{
+  position: absoulute;
+  top: -10px;
+  left: 80px;
+  border: 1px solid black;
+  padding: 20px;
+  color: red;
+}
+.section-3{
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow-y: scroll; */
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+.text-element p > .span{
+  font-size: 14px;
+  color: red;
+}
+div > p{
+  color: red;
+}
