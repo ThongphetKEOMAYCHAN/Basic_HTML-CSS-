@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.form-container {
+  background-color: #f2f2f2;
+  padding: 50px 100px;
+  margin: 0 300px;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.first-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-div label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.first-div input {
+  width: 600px;
+  padding: 10px;
+}
+
+.second-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-div label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.second-div input {
+  width: 600px;
+  padding: 10px;
+}
+
+.third-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third-div label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.third-div select {
+  width: 625px;
+  padding: 10px;
+}
+
+.fourth-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fourth-div label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.fourth-div textarea {
+  width: 620px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: end;
+}
